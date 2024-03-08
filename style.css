@@ -1,0 +1,63 @@
+/* Redefinição de estilos */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header */
+  
+  header {
+    background-color: #333;
+    height: 150px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    margin-top: 10px;
+    width: 300px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  a:hover {
+    color: #ccc;
+  }
+  
+  /* Redes Sociais */
+  
+  .redes-sociais {
+    display: flex;
+    align-items: center;
+  }
+  
+  .redes-sociais img {
+    width: 30px;
+    margin-left: 20px;
+  }
+  
+  /* Conteúdo da página */
+  
+  /* Footer */
+  
