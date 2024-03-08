@@ -43,43 +43,27 @@
     color: #ccc;
   }
   
-  /* Redes Sociais */
-  
   .redes-sociais img {
     width: 45px;
     margin-left: 20px;
   }
 
-
-
-  .hamburger img {
-    width: 45px;
-  }
-
   /* Adicione uma media query para estilos específicos para telas menores, como smartphones */
   @media (max-width: 767.98px) {
   
+    ul {
+      margin-top: 25px;
+    }
 
   .logo {
-    margin-left: 50px;
+    margin-left: 25px;
     margin-top: 25px;
-    width: 250px;
+    width: 220px;
   }
-
-  ul {
-    display: none;
-  }
-
-  
 
   .redes-sociais img {
-    width: 45px;
-    margin-right: 10px;
-    padding: auto;
-  }
-
-  .hamburger {
-    display: block; /* Torne o ícone do menu hamburger visível em telas menores */
+    width: 26px;
+    padding: 0px;
   }
 
   a {
