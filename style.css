@@ -48,25 +48,39 @@
     margin-left: 20px;
   }
 
-  /* Adicione uma media query para estilos específicos para telas menores, como smartphones */
-  @media (max-width: 767.98px) {
+@media (max-width: 767.98px){
+
+  header {
+    height: 100px;
+  }
   
-    ul {
+  ul {
       margin-top: 25px;
     }
+
+  li {
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-right: 5px;
+  }
 
   .logo {
     margin-left: 25px;
     margin-top: 25px;
-    width: 220px;
+    width: 100px;
   }
 
   .redes-sociais img {
-    width: 26px;
+    width: 25px;
     padding: 0px;
+    margin-top: 15px;
+  }
+
+  .whatsapp {
+    margin-right: 10px;
   }
 
   a {
-    font-size: 16px; /* Reduza o tamanho da fonte para telas menores */
+    font-size: 10px; /* Reduza o tamanho da fonte para telas menores */
   }
 }
