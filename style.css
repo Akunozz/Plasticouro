@@ -48,6 +48,36 @@
     margin-left: 20px;
   }
 
+  #servicos {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+  }
+  
+  #servicos h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .container-fotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .container-fotos img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    object-fit: cover;
+  }
+  
+  #servicos p {
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+
 @media (max-width: 767.98px){
 
   header {
